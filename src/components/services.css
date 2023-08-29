@@ -1,0 +1,100 @@
+.services-area:after {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    font-size: 90px;
+    font-weight: 800;
+    font-style: italic;
+    color: #fff;
+    opacity: .02
+}
+
+.services-area {
+    position: relative;
+    background: #333 url(https://digitalmarketing.computan.com/hubfs/Computan%202020/services-bg.png) no-repeat top 95px left 37px;
+    padding: 66px 0 40px
+}
+
+.services-area .border-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 37px
+}
+
+.services-area h2 {
+    color: #fff
+}
+
+.service-tab-row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.service-tab {
+    position: relative;
+    width: calc(50% - 58px);
+    max-width: 500px;
+    background-color: #333;
+    box-shadow: -3px 0 33.81px 15.19px rgba(0, 0, 0, .2);
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    transition: all .4s ease-in-out;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 29px 60px
+}
+
+.service-tab .overlap-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.service-tab img {
+    margin-bottom: 29px
+}
+
+.service-tab h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+.service-tab .learn-more {
+    display: inline-block;
+    background: url(https://digitalmarketing.computan.com/hubfs/Computan%202020/right-arrow.png) no-repeat 100%;
+    color: #e5b15b;
+    opacity: 0;
+    visibility: hidden;
+    text-decoration: none;
+    padding-right: 29px;
+    margin-top: 50px
+}
+
+.service-tab .placeholder-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0
+}
+
+.service-tab:focus-within,
+.service-tab:hover {
+    background: #252525
+}
+
+.service-tab:focus-within .learn-more,
+.service-tab:hover .learn-more {
+    opacity: 1;
+    visibility: visible
+}
+
+.service-tab a:focus-visible {
+    outline-style: auto !important
+}

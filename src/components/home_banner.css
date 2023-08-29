@@ -1,0 +1,126 @@
+.home-banner {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background-size: cover !important;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+
+.banner-img-css {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: -1
+}
+
+@media screen and (max-width:1200px) {
+    .banner-img-css {
+        height: 100%;
+        width: auto
+    }
+}
+
+.banner-caption {
+    padding-top: 70px
+}
+
+.home-banner .page-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 !important;
+    min-height: 300px
+}
+
+.home-banner h1 {
+    border-bottom: 2px solid #f0b95e;
+    font-weight: 100 !important;
+    line-height: 1;
+    padding-bottom: 20px
+}
+
+.home-banner h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 1;
+    margin-bottom: 32px
+}
+
+.btn-group .white-border-btn {
+    margin: 0 10px
+}
+
+.white-border-btn {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 54px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out
+}
+
+.white-border-btn:focus-visible,
+.white-border-btn:hover {
+    background: #f0b95e;
+    border: 1px solid #f0b95e;
+    color: #000
+}
+
+.white-border-btn:focus-visible {
+    outline-style: auto !important
+}
+
+.video-page .banner-caption p {
+    margin: 0 auto;
+    max-width: 70%
+}
+
+.video-page .home-banner h1 {
+    border: 0;
+    position: relative
+}
+
+.video-page .home-banner h1:after {
+    background: #f5b860;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 556px
+}
+
+@media screen and (max-width:767px) {
+    .white-border-btn {
+        font-size: 16px;
+        padding: 6px 30px
+    }
+}
+
+@media (max-width:550px) {
+    .home-banner .page-center {
+        min-height: 400px
+    }
+}
+
+@media screen and (max-width:479px) {
+    .btn-group .white-border-btn {
+        box-sizing: border-box !important;
+        margin: 0 0 20px;
+        width: 100%
+    }
+}

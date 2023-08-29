@@ -1,0 +1,255 @@
+footer.footer-area .footer-top {
+    padding: 55px 0 50px
+}
+
+footer.footer-area .footer-tab-row {
+    display: -ms-flexbox;
+    display: flex
+}
+
+footer.footer-area .footer-top h2 {
+    color: #484848;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    text-transform: uppercase
+}
+
+footer.footer-area .footer-tab1 {
+    max-width: 453px;
+    padding-bottom: 27px;
+    padding-right: 32px;
+    position: relative;
+    width: 100%
+}
+
+footer.footer-area .footer-tab1:after {
+    background: #a3a3a3;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 95px;
+    width: 1px
+}
+
+footer.footer-area .f-logo {
+    margin-bottom: 28px
+}
+
+footer.footer-area .f-logo a {
+    display: block;
+    min-height: 48px
+}
+
+footer.footer-area .f-logo a img {
+    display: block
+}
+
+footer.footer-area .f-about-text {
+    margin-bottom: 37px
+}
+
+footer.footer-area .get-connected {
+    border-top: 1px solid #a3a3a3;
+    max-width: 350px;
+    padding-top: 25px;
+    width: 100%
+}
+
+footer.footer-area .get-connected h2 {
+    margin-bottom: 13px
+}
+
+footer.footer-area .get-connected a {
+    display: block !important;
+    float: left;
+    margin: 0 !important;
+    padding: 10px
+}
+
+footer.footer-area .get-connected a img {
+    display: block
+}
+
+.footer-tab2 {
+    max-width: 535px;
+    padding: 38px 25px 0;
+    position: relative;
+    width: 100%
+}
+
+footer.footer-area .footer-tab2:after {
+    background: #a3a3a3;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 95px;
+    width: 1px
+}
+
+footer.footer-area .footer-tab2 ul.demo li a {
+    display: block;
+    padding: 12px 10px
+}
+
+footer.footer-area .footer-tab2 ul.demo li section a {
+    padding: 0 10px
+}
+
+footer.footer-area .footer-tab2 ul.demo li a.active,
+footer.footer-area .footer-tab2 ul.demo li a:focus-visible,
+footer.footer-area .footer-tab2 ul.demo li a:hover {
+    color: #f5b860
+}
+
+footer.footer-area .f-address {
+    background: url(https://digitalmarketing.computan.com/hubfs/Computan%202020/map-mark.png) no-repeat top;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    padding-top: 40px;
+    position: relative
+}
+
+footer.footer-area .f-address:after {
+    background: #f0b95e;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 127px
+}
+
+footer.footer-area .phone-number {
+    color: #fff;
+    display: block;
+    padding-top: 30px;
+    text-decoration: none
+}
+
+footer.footer-area .footer-tab3 {
+    max-width: 183px;
+    padding-left: 42px;
+    padding-top: 38px;
+    width: 100%
+}
+
+footer.footer-area .footer-tab3 ul li {
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+footer.footer-area .footer-tab3 ul li a {
+    color: #484848;
+    display: block;
+    line-height: 26px;
+    margin: 0 !important;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    white-space: inherit !important
+}
+
+footer.footer-area .footer-tab3 ul li a:focus-visible,
+footer.footer-area .footer-tab3 ul li a:hover {
+    color: #f0b95e
+}
+
+footer.footer-area .copyright {
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 1px;
+    padding-top: 42px;
+    position: relative;
+    text-align: center
+}
+
+footer.footer-area .copyright a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+footer.footer-area .copyright a:focus-visible,
+footer.footer-area .copyright a:hover {
+    color: #f0b95e;
+    text-decoration: underline
+}
+
+footer.footer-area .company-icon {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -60px
+}
+
+footer.footer-area .company-icon a {
+    display: inline-block
+}
+
+footer.footer-area .company-icon a img {
+    display: block;
+    margin-top: 24px !important
+}
+
+footer.footer-area .footer-tab3 ul li a {
+    text-decoration: none
+}
+
+footer.footer-area .footer-tab3 ul li a:focus-visible,
+footer.footer-area .footer-tab3 ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+@media screen and (max-width:876px) {
+    footer.footer-area .copyright p a {
+        display: block
+    }
+}
+
+@media screen and (max-width:768px) {
+    footer.footer-area .footer-tab3 {
+        padding-left: 0
+    }
+}
+
+footer.footer-area .company-icon a:focus-visible,
+footer.footer-area .copyright a:focus-visible,
+footer.footer-area .f-logo a:focus-visible,
+footer.footer-area .footer-tab2 ul.demo li a:focus-visible,
+footer.footer-area .footer-tab3 ul li a:focus-visible,
+footer.footer-area .get-connected a:focus-visible {
+    outline-color: #000 !important;
+    outline-style: auto !important
+}
+
+footer.footer-area .get-connected a:focus-visible {
+    outline-offset: 2px
+}
+
+@media(max-width:1198px) {
+
+    footer.footer-area .footer-tab1,
+    footer.footer-area .get-connected {
+        max-width: 100%;
+        padding-right: 0
+    }
+
+    footer.footer-area .footer-tab3 {
+        padding-left: 0;
+        padding-top: 30px !important
+    }
+
+    .footer-tab2 {
+        padding-bottom: 15px !important
+    }
+}
