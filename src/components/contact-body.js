@@ -71,39 +71,7 @@ function ContactBody() {
                                                         </form>
                                                     </div>
                                                 </section>
-                                                {/* <div class="span8">
-                                                        <div class="right-contact-form">
-                                                            <span id="hs_cos_wrapper_module_1598350511705596_"
-                                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form"
-                                                                style="" data-hs-cos-general-type="widget"
-                                                                data-hs-cos-type="form">
-                                                                <h3 id="hs_cos_wrapper_form_899619332_title"
-                                                                    class="hs_cos_wrapper form-title"
-                                                                    data-hs-cos-general-type="widget_field"
-                                                                    data-hs-cos-type="text"></h3>
-
-                                                                    <div class="span6">
-                                                                        <div class="right-form">
-                                                                            <span id="hs_cos_wrapper_module_159499464175450_"
-                                                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style=""
-                                                                                data-hs-cos-general-type="widget" data-hs-cos-type="form">
-                                                                                <h3 id="hs_cos_wrapper_form_137171628_title" class="hs_cos_wrapper form-title"
-                                                                                    data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
-                                                                    </div>
-
-                                                                <div id="hs_form_target_form_899619332"></div>
-
-
-
-
-
-
-
-
-
-                                                            </span>
-                                                        </div>
-                                                    </div> */}
+                                                
                                             </div>
                                         </div>
                                     </div>
