@@ -34,38 +34,39 @@ function ContactBody() {
                                                         </p>
                                                                                                    
                                                         <ul>
-                                                            <li ><a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={30} height={30} loading="lazy" sizes="(max-width: 30px) 100vw, 30px" /></a> 
+                                                            <li ><a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." className = "contact-email" linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> 
                                                                     </li>
-                                                            
-                                                            <li><a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab."><img src={Phone} alt="Phone" width={30} height={30} loading="lazy" sizes="(max-width: 30px) 100vw, 30px" /></a>                                                                
+                                                            <li><a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab." className="contact-phone" linktext><img src={Phone} alt="Phone" width={20} height={20} loading="lazy" sizes="(max-width: 20px) 100vw, 20px" /></a>                                                              
                                                             </li>
-                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <section id="contact">
                                                     <div className="container pb-5">
-                                                        
+                                                        <h2 class="pt-5">Contact Me</h2>
                                                         <form className="" action="mailto:fiyinfoluwa1000@gmail.com" method="post" >
+                                                            
+                                                            <div id="name">
                                                             <div className="form-group">
-                                                                <label htmlFor="first name">First Name:</label>
-                                                                <input type="text" id="first name" name="first name" className="form-control"    required />
+                                                                
+                                                                <input type="text" id="firstname" name="first name" className="form-control" placeholder="First Name*"   required />
                                                             </div>
                                                             <div className="form-group">
-                                                                <label htmlFor="last name">Last Name:</label>
-                                                                <input type="text" id="last name" name="last name" className="form-control" required />
+                                                            
+                                                                    <input type="text" id="lastname" name="last name" className="form-control" placeholder="Last Name*" required />
+                                                                </div>
                                                             </div>
                                                             <div className="form-group">
-                                                                <label htmlFor="email">Email:</label>
-                                                                <input type="email" id="email" name="email" className="form-control" required />
+                                                                
+                                                                <input type="email" id="email" name="email" className="form-control" placeholder="Email*" required />
                                                             </div>
                                                             <div className="form-group">
-                                                                <label htmlFor="phone">Phone No.:</label>
-                                                                <input type="phone" id="phone" name="phone" className="form-control" required />
+                                                
+                                                                <input type="phone" id="phone" name="phone" className="form-control" placeholder="Phone No." required />
                                                             </div>
                                                             <div className="form-group">
-                                                                <label htmlFor="message">Message:</label>
-                                                                <textarea id="message" rows={6} name="message" className="form-control" required defaultValue={""} />
+                                                                
+                                                                <textarea id="message" rows={6} name="message" className="form-control" placeholder="Message" required defaultValue={""} />
                                                             </div>
                                                             <button type="submit" className="btn btn-primary mt-3">Send</button>
                                                         </form>

@@ -313,4 +313,9 @@ input[type=checkbox]:checked+span {
     .right-contact-form {
         padding-left: 54px
     }
+
+    .ContactPage {
+        overflow-x: hidden;
+        width: 100vw;
+    }
 }

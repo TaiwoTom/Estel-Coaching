@@ -7,3 +7,46 @@ margin-top: 20px;
 font-weight: 700;
 }
 
+
+
+input, textarea {
+    
+    border-bottom: thin solid; 
+    font-size: 20px;
+    font-weight: 50;
+    line-height: 20px;
+    ;
+    
+}
+
+input:focus, textarea:focus {
+    padding: 20px;
+}
+
+#name {
+    display: flex;
+    
+}
+
+#lastname {
+    margin-left: 50px;
+    padding:150px
+}
+.form-group{
+    margin-bottom: 18px;
+    /* width: 30vw; */
+    
+}
+
+#firstname, #lastname {
+    padding: 0 142px 0 0;
+}
+
+#email, #phone, #message {
+    padding: 0 560px 0 0;
+}
+
+
+
+
+

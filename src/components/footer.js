@@ -61,14 +61,14 @@ function Footer() {
                                                     </div>
                                                     <div className="get-connected">
                                                         <h2>GET CONNECTED</h2>
-                                                        <a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={30} height={30} loading="lazy" sizes="(max-width: 30px) 100vw, 30px" /></a> <a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
+                                                        <a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
                                                             
-                                                            <p sizes="(max-width: 30px) 100vw, 30px">
+                                                            <p sizes="(max-width: 30px) 100vw, 30px" >
                                                                 fiyinfoluwa1000@gmail.com</p>
                                                         </a>
                                                         <br />
                                                         <br />
-                                                        <a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab."><img src={Phone} alt="Phone" width={30} height={30} loading="lazy" sizes="(max-width: 30px) 100vw, 30px" /></a> <a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab.">
+                                                        <a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab."><img src={Phone} alt="Phone" width={20} height={20} loading="lazy" sizes="(max-width: 20px) 100vw, 20px" /></a> <a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab.">
                                                             <p sizes="(max-width: 30px) 100vw, 30px"> +2348175863420
                                                             </p>
                                                         </a>

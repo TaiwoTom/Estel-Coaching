@@ -11,9 +11,17 @@ import { Link } from 'react-router-dom';
 
 
 function Navbar() {
+    const openNav = () => {
+        document.getElementById("openMenu").style.display = "block";
+    }
+
+    const closeNav = () => {
+        document.getElementById("openMenu").style.display = "none";
+    }
+    
     return (
 
-        <div className="header-container-wrapper">
+        <div className="header-container-wrapper tab-nav">
             <div className="header-container container-fluid">
                 <div className="row-fluid-wrapper row-depth-1 row-number-1 ">
                     <div className="row-fluid ">
@@ -32,9 +40,53 @@ function Navbar() {
                                                         </div>
                                                     </div>
                                                 </div>{/*end widget-span */}
+
+
+
+
+
+
+
+                                                
+
+                                                {/* <span className="navmenu" onClick={openNav}>&#9776;</span> */}
+                                                <span id="hs_cos_wrapper_module_14588124460843" onClick={openNav} className="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu "  data-hs-cos-general-type="widget" data-hs-cos-type="menu"><a className="mobile-trigger new_nav"><i className="icon-menu new_icon"  /></a></span>
+                                                <div className="col-sm-3 icon" id="openMenu">
+                                                    <div className="m-3">
+                                                        <span className="close" onClick={closeNav}>&times;</span>
+                                                        <ul className="navbar-nav justify-content-around">
+                                                            <li className="nav-item">
+                                                                <Link to="/" className="nav-link">
+                                                                    <span className="nav-mobile">HOME</span>
+                                                                </Link>
+                                                                <hr/>
+                                                            </li>
+                                                            <li className="nav-item">
+                                                                <Link to="/services" className="nav-link">
+                                                                    <span className="nav-mobile">OUR SERVICES</span>
+                                                                </Link>
+                                                                <hr />
+                                                            </li>
+                                                            <li className="nav-item">
+                                                                <Link to="/contact" className="nav-link">
+                                                                    <span className="nav-mobile">CONTACT</span>
+                                                                </Link>
+                                                            </li>
+                                                        </ul>
+                                                        
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+
                                                 <div className="span9 widget-span widget-type-menu custom-menu-primary js-enabled" style={{ display: 'block' }} data-widget-type="menu" data-x={3} data-w={9}>
                                                     <div className="cell-wrapper layout-widget-wrapper">
-                                                        <span id="hs_cos_wrapper_module_14588124460843" className="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><a className="mobile-trigger"><i className="icon-menu" /></a>
+                                                        <span id="hs_cos_wrapper_module_14588124460843" className="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu old_nav" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><a className="mobile-trigger"><i className="icon-menu" /></a>
                                                             <div id="hs_menu_wrapper_module_14588124460843" className="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-menu-id={4021202453} aria-label="Navigation Menu">
                                                                 <ul role="menu">
                                                                     <li className="hs-menu-item hs-menu-depth-1" role="none"><Link to="/" >HOME</Link></li>
