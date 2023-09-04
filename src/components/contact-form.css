@@ -7,20 +7,25 @@ margin-top: 20px;
 font-weight: 700;
 }
 
+button{
+    border-radius: 5px;
+    border-style: none;
+}
 
 
 input, textarea {
     
     border-bottom: thin solid; 
-    font-size: 20px;
-    font-weight: 50;
+    font-size: 18px;
     line-height: 20px;
-    ;
-    
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
 }
 
-input:focus, textarea:focus {
-    padding: 20px;
+input:placeholder-shown{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 150;
 }
 
 #name {
@@ -28,22 +33,28 @@ input:focus, textarea:focus {
     
 }
 
-#lastname {
-    margin-left: 50px;
-    padding:150px
+#firstname{
+    width: 30vw;
 }
+
+#lastname{
+    width: 30vw;
+}
+
 .form-group{
-    margin-bottom: 18px;
-    /* width: 30vw; */
-    
+    margin-bottom: 18px;    
 }
 
-#firstname, #lastname {
-    padding: 0 142px 0 0;
+.form-control{
+    margin-right: 2vw;
+    width: 50vw;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
-#email, #phone, #message {
-    padding: 0 560px 0 0;
+.form-control:focus{
+    background-color: white;
+    box-shadow: none;
 }
 
 
