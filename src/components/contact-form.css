@@ -7,3 +7,57 @@ margin-top: 20px;
 font-weight: 700;
 }
 
+button{
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+input, textarea {
+    
+    border-bottom: thin solid; 
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input:placeholder-shown{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 150;
+}
+
+#name {
+    display: flex;
+    
+}
+
+#firstname{
+    width: 30vw;
+}
+
+#lastname{
+    width: 30vw;
+}
+
+.form-group{
+    margin-bottom: 18px;    
+}
+
+.form-control{
+    margin-right: 2vw;
+    width: 50vw;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.form-control:focus{
+    background-color: white;
+    box-shadow: none;
+}
+
+
+
+
+

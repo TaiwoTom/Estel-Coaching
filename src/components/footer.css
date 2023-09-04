@@ -41,15 +41,18 @@ footer.footer-area .f-logo {
 
 footer.footer-area .f-logo a {
     display: block;
-    min-height: 48px
+    min-height: 48px;
+    
 }
 
 footer.footer-area .f-logo a img {
-    display: block
+    display: block;
+    margin-left: -70px;
+
 }
 
 footer.footer-area .f-about-text {
-    margin-bottom: 37px
+    margin-bottom: 37px;
 }
 
 footer.footer-area .get-connected {
@@ -67,11 +70,17 @@ footer.footer-area .get-connected a {
     display: block !important;
     float: left;
     margin: 0 !important;
-    padding: 10px
+    padding: 10px;
+    color: #f0b95e;
+
+}
+footer.footer-area .get-connected a p {
+    margin-top: -6px;
 }
 
 footer.footer-area .get-connected a img {
-    display: block
+    display: block;
+    
 }
 
 .footer-tab2 {
@@ -111,7 +120,8 @@ footer.footer-area .f-address {
     margin-bottom: 15px;
     padding-bottom: 8px;
     padding-top: 40px;
-    position: relative
+    position: relative;
+    
 }
 
 footer.footer-area .f-address:after {

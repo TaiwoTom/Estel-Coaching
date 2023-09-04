@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b926a5e.css",
+    "main.js": "/static/js/main.8d9530c0.js",
+    "static/media/thinking-promising-project.svg": "/static/media/thinking-promising-project.26f4d8bff98908b6f37335dc4581eacf.svg",
+    "static/media/it-video.mp4": "/static/media/it-video.87b7561ad42da42d44f3.mp4",
+    "static/media/scrum.mp4": "/static/media/scrum.502f4c6432557817f846.mp4",
+    "static/media/contact-bg.png": "/static/media/contact-bg.d2bc5f117ff57c09f200.png",
+    "static/media/AgileTransformation.jpg": "/static/media/AgileTransformation.4173b958daaae2033ade.jpg",
+    "static/media/EstelLogo.png": "/static/media/EstelLogo.e4da9f89919c5adb5cb7.png",
+    "static/media/phone.png": "/static/media/phone.3c78e45d464e53c7399a.png",
+    "index.html": "/index.html",
+    "static/media/email-5a59065e.svg": "/static/media/email-5a59065e.1802c8391b4e0c01f21564aed23a4e58.svg",
+    "main.5b926a5e.css.map": "/static/css/main.5b926a5e.css.map",
+    "main.8d9530c0.js.map": "/static/js/main.8d9530c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b926a5e.css",
+    "static/js/main.8d9530c0.js"
+  ]
+}

@@ -12,7 +12,7 @@ import Footer from '../footer';
 function HomePage() {
     return (
         <div className="App">
-            <body class="   hs-content-id-35094289646 hs-site-page page hs-content-path- hs-content-name-home-page  ">
+            <body class=" hs-content-id-35094289646 hs-site-page page hs-content-path- hs-content-name-home-page  ">
                 <Navbar />
                 <HeadAbout />
                 <Services />

@@ -300,57 +300,7 @@ h4 {
         width: auto
     }
 
-    .mobile-trigger:hover {
-        text-decoration: none
-    }
 
-    .mobile-open .mobile-trigger,
-    .mobile-trigger:hover {
-        background-color: #f0b95e;
-        border-color: transparent;
-        color: #fff
-    }
-
-    .mobile-trigger i {
-        display: inline;
-        position: relative;
-        top: -4px
-    }
-
-    .mobile-trigger i:after,
-    .mobile-trigger i:before {
-        content: "";
-        position: absolute
-    }
-
-    .mobile-trigger i,
-    .mobile-trigger i:after,
-    .mobile-trigger i:before {
-        background-color: #000;
-        -webkit-border-radius: 1px;
-        -moz-border-radius: 1px;
-        border-radius: 1px;
-        display: inline-block;
-        height: 2px;
-        width: 22px
-    }
-
-    .mobile-trigger i:before {
-        top: -6px
-    }
-
-    .mobile-trigger i:after {
-        top: 6px
-    }
-
-    .mobile-open .mobile-trigger i,
-    .mobile-open .mobile-trigger i:after,
-    .mobile-open .mobile-trigger i:before,
-    .mobile-trigger:hover i,
-    .mobile-trigger:hover i:after,
-    .mobile-trigger:hover i:before {
-        background-color: #fff
-    }
 
     .child-trigger {
         border-left: 1px dotted hsla(0, 0%, 100%, .2);
@@ -1632,4 +1582,17 @@ input:focus-visible {
     .job-post h4 {
         font-size: 26px
     }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1024px) {
+.get-connected ul .contact-email {
+   margin-left: -2px;
+}
+
+.get-connected ul .contact-phone {
+    margin-left: -10px;
+   
+    
+}
+
 }

@@ -8,14 +8,14 @@ import Footer from '../footer'
 
 function ContactPage() {
     return (
-        <div className="ServicesPage">
-            <div class=" hs-content-id-35094289646 hs-site-page page hs-content-path- hs-content-name-home-page  ">
+        <div className="ContactPage">
+            <body class=" hs-content-id-35094289646 hs-site-page page hs-content-path- hs-content-name-home-page ">
                 <Navbar />
                 <ContactHeader />
                 <ContactBody />
                 <Footer />
 
-            </div>
+            </body>
         </div>
     );
 }

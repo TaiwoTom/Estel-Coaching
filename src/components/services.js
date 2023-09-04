@@ -72,7 +72,7 @@ function Services() {
                                                 shine, and our expert coaches are dedicated to helping you navigate it
                                                 with confidence.
                                             </p>
-                                            <a href="https://www.computan.com/wordpress-development?hsLang=en" className="learn-more" target="_blank" aria-label="Interviewing Preparation, opens in new tab">Learn More</a>
+                                            <a href="/services.html" className="learn-more" target="_blank" aria-label="Interviewing Preparation, opens in new tab">Learn More</a>
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src="https://wallpapercave.com/wp/wp7447328.jpg" alt="resume_linkedin" width={450} height={300} src="https://wallpapercave.com/wp/wp7447328.jpg" />
@@ -85,7 +85,7 @@ function Services() {
                                                 straightforward, prompting the relevance of CV review
                                                 and writing services.
                                             </p>
-                                            <a href="https://www.computan.com/app-development?hsLang=en" className="learn-more" target="_blank" aria-label="Resume Linkedin, opens in new tab">Learn More</a>
+                                            <a href="/services.html" className="learn-more" target="_blank" aria-label="Resume Linkedin, opens in new tab">Learn More</a>
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src={AgileTransport} alt="agile_transformation" width={450} height={300} src={AgileTransport} />
