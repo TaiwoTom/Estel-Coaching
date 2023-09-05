@@ -22,7 +22,7 @@ input, textarea {
     font-family:'Times New Roman', Times, serif;
 }
 
-input:placeholder-shown{
+input:placeholder-shown, textarea:placeholder-shown{
     font-style: italic;
     font-size: 18px;
     font-weight: 150;
@@ -34,27 +34,101 @@ input:placeholder-shown{
 }
 
 #firstname{
-    width: 30vw;
+    width: 29vw;
 }
 
 #lastname{
-    width: 30vw;
+    width: 29vw;
 }
 
 .form-group{
     margin-bottom: 18px;    
 }
 
+#message {
+    width: 58.5vw 
+}
+
 .form-control{
     margin-right: 2vw;
-    width: 50vw;
+    width: 60vw;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    
 }
 
 .form-control:focus{
-    background-color: white;
+    background-color: rgb(126, 126, 126,0.1);
     box-shadow: none;
+    
+}
+
+@media only screen and (max-width: 576px) {
+    #message {
+            width: 54.5vw
+        }
+        #contact {
+            margin-top: 22vh;
+        }
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 576px) {
+    
+    #contact {
+            margin-top: 22vh;
+        }
+    
+        #firstname {
+            width: 44vw;
+        }
+    
+        #lastname {
+            width: 44vw;
+        }
+    
+        .form-control {
+    
+            width: 90vw;
+    
+    
+        }
+    
+        #message {
+            width: 83.5vw
+        }
+    
+}
+
+/* TAB VIEW */
+
+@media only screen and (min-width: 577px) and (max-width: 1024px) {
+
+    
+    #contact {
+            margin-top: 22vh;
+        }
+        #firstname {
+            width: 44vw;
+        }
+    
+        #lastname {
+            width: 44vw;
+        }
+                .form-control {
+               
+                    width: 90vw;
+        
+        
+                }
+        #message {
+        width: 86.5vw
+    }
+
+
+
+    
 }
 
 

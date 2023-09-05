@@ -268,7 +268,7 @@
        font-size: 16px;
        font-weight: 400;
        height: auto;
-       padding: 7px 10px 8px;
+       padding: 12px 10px 8px;
        position: absolute;
        right: 5vw;
        text-align: left;
@@ -466,10 +466,6 @@
        display: none;
      }
 
-     /* .new_nav {
-
-  top: 3vh;
-} */
      .new_icon {
 
        margin: 8px 0 0 0;

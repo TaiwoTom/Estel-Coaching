@@ -12,9 +12,8 @@ import './index.css';
 
 
 
-function HeadAbout() {
-    // const playerRef = useRef(null)
-    // const headerVideo = [<ReactPlayer ref={playerRef} url={ItVideo} controls={false} />,]
+function HomeHeadAbout() {
+    
     return (
         <div className="body-container-wrapper">
             <div className="body-container container-fluid">
@@ -110,4 +109,4 @@ function HeadAbout() {
     )
 }
 
-export default HeadAbout;
+export default HomeHeadAbout;

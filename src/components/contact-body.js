@@ -15,7 +15,7 @@ import Phone from "../assets/phone.png";
 
 function ContactBody() {
   return (
-    <div className="row-fluid-wrapper row-depth-1 row-number-2 ">
+    <div className="row-fluid-wrapper row-depth-1 row-number-2 contact-body">
       <div className="row-fluid ">
         <div
           id="main_content"
@@ -37,7 +37,6 @@ function ContactBody() {
                 <div
                   id="hs_cos_wrapper_module_1598350511705596"
                   className="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
-                  style={{}}
                   data-hs-cos-general-type="widget"
                   data-hs-cos-type="module"
                 >
@@ -104,6 +103,7 @@ function ContactBody() {
                             >
                               <div id="name">
                                 <div className="form-group">
+                                  <div>
                                   <input
                                     type="text"
                                     id="firstname"
@@ -112,7 +112,9 @@ function ContactBody() {
                                     placeholder="First Name*"
                                     required
                                   />
+                                  </div>
                                 </div>
+                             
                                 <div className="form-group">
                                   <input
                                     type="text"
@@ -125,6 +127,7 @@ function ContactBody() {
                                 </div>
                               </div>
                               <div className="form-group">
+
                                 <input
                                   type="email"
                                   id="email"

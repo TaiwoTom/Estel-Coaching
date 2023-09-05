@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactDOM from 'react-dom/client';
 import "./index.css";
 import "./home_banner.css";
 import "./page_fancybox.css";
@@ -184,5 +183,4 @@ function Navbar() {
 }
 
 export default Navbar;
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(Navbar);
+

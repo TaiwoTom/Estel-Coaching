@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
 import './index.css';
 import './home_banner.css';
 import './page_fancybox.css';
@@ -9,10 +8,14 @@ import './video_with_text.css';
 import './footer.css';
 import logo from '../assets/EstelLogo.png';
 import Email from '../assets/email-5a59065e.svg';
-import Phone from '../assets/phone.png'
+import Phone from '../assets/phone.png';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
+    const openInNewTab = (url) => {
+        window.open(url, "_blank", "noreferrer");
+    };
     return (
 
         <div className="footer-container-wrapper">
@@ -79,12 +82,12 @@ function Footer() {
                                                     <span id="hs_cos_wrapper_module_1599138159693382_" className="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" data-hs-cos-general-type="widget" data-hs-cos-type="menu">
                                                         <div id="hs_menu_wrapper_module_1599138159693382_" className="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id={32501009001} aria-label="Navigation Menu">
                                                             <ul role="menu">
-                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="/services.html" role="menuitem">Scrum Transition</a></li>
-                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="/services.html" role="menuitem">Career coaching</a></li>
-                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="/services.html" role="menuitem">On the Job support</a></li>
-                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="/services.html" role="menuitem">Interview Preparation</a>
+                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="./services" target="_blank" rel="noferrrer">Scrum Transition</a></li>
+                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="./services" target="_blank" rel="noferrrer">Career coaching</a></li>
+                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="./services" target="_blank" rel="noferrrer">On the Job support</a></li>
+                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="./services" target="_blank" rel="noferrrer">Interview Preparation</a>
                                                                 </li>
-                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="/services.html" role="menuitem">Agile Transformation</a>
+                                                                <li className="hs-menu-item hs-menu-depth-1" role="none"><a href="./services" target="_blank" rel="noferrrer">Agile Transformation</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -93,7 +96,7 @@ function Footer() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="copyright" style={{}}>
+                                    <div className="copyright">
                                         <div className="page-center">
                                             <p>Copyright © 2023 Estel Coaching. All Rights Reserved</p>
                                         </div>

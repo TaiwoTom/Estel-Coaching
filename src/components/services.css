@@ -68,14 +68,9 @@
 
 @media only screen and (max-width: 576px) {
   .service-tab .lazy {
-    width: 80vw;
+    width: 800vw;
     height: 40vh;
   }
-
-  /* img {
-        display: none !important;
-        
-    } */
 }
 
 .service-tab h3 {

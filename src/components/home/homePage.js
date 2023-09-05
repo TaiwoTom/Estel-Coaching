@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import '../index.css';
 import '../services.css'
 import Navbar from '../navbar';
-import HeadAbout from '../home-header-about';
-import Services from '../services';
+import HomeHeadAbout from '../home-header-about';
+import HomeServices from '../home_services';
 import Testimonials from '../testimonials';
 import Footer from '../footer';
 
@@ -14,8 +14,8 @@ function HomePage() {
         <div className="App">
             <body class=" hs-content-id-35094289646 hs-site-page page hs-content-path- hs-content-name-home-page  ">
                 <Navbar />
-                <HeadAbout />
-                <Services />
+                <HomeHeadAbout />
+                <HomeServices />
                 <Testimonials />
                 <Footer />
             </body>

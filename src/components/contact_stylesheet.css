@@ -1584,6 +1584,7 @@ input:focus-visible {
     }
 }
 
+/* TAB VIEW */
 @media only screen and (min-width: 577px) and (max-width: 1024px) {
 .get-connected ul .contact-email {
    margin-left: -2px;
@@ -1594,5 +1595,21 @@ input:focus-visible {
    
     
 }
+
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 576px) {
+    .get-connected ul .contact-email 
+    {
+        margin-left: -3px;
+    }
+
+    .get-connected ul .contact-phone {
+        margin-left: -10px;
+        padding-bottom: 12px;
+
+
+    }
 
 }
