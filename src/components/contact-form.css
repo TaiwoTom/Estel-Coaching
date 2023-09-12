@@ -7,6 +7,7 @@ margin-top: 20px;
 font-weight: 700;
 }
 
+
 button{
     border-radius: 5px;
     border-style: none;
@@ -57,11 +58,24 @@ input:placeholder-shown, textarea:placeholder-shown{
     
 }
 
-.form-control:focus{
-    background-color: rgb(126, 126, 126,0.1);
-    box-shadow: none;
-    
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea {
+    box-shadow: 0 0 10px 2px transparent !important;
+    outline-style: none !important;
+    background-color: rgb(126, 126, 126, 0.1);
 }
+
+.form-success-msg {
+    text-align: center;
+    margin: 8vw;
+    font-weight: 600;
+    font-size: 40px;
+    color:#f3b860;
+    line-height: 45px;
+}
+
 
 @media only screen and (max-width: 576px) {
     #message {

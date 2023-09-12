@@ -59,17 +59,23 @@
   margin-bottom: 29px;
 }
 
+
+
+/* TAB- DOUBLE COLUMN VIEW */
+
 @media only screen and (max-width: 1024px) and (min-width: 621px) {
   .service-tab .lazy {
-    width: 32vmax;
+    width: 30vmax;
     height: 40vh;
   }
 }
 
+/* MOBILE VIEW */
+
 @media only screen and (max-width: 576px) {
   .service-tab .lazy {
-    width: 800vw;
-    height: 40vh;
+    width: 70vw;
+    height: calc(40vh - 10vh);
   }
 }
 

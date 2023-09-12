@@ -8,7 +8,6 @@ import './video_with_text.css';
 import './footer.css';
 import logo from '../assets/EstelLogo.png';
 import Email from '../assets/email-5a59065e.svg';
-import Phone from '../assets/phone.png';
 import { Link } from 'react-router-dom';
 
 
@@ -46,34 +45,24 @@ function Footer() {
                                                             through tailored training.
                                                         </p>
                                                     </div>
+
                                                 </div>
                                                 <div className="footer-tab2">
-                                                    <h2>LOCATION</h2>
-                                                    <div>
-                                                        <ul className="demo at-tabs-when-possible bbq clearfix at-accordion-or-tabs at-accordion-closed" data-tabset-id="tabset_0">
-                                                            <li>
-                                                                <p aria-controls="sect_tabset_0_2" id="accordion_tabset_0_2" aria-expanded="false">
-                                                                    <span className="at-tab-one-pixel-fix-left" /><span className="at-tab-one-pixel-fix-right" />16,
-                                                                    Azikiwe
-                                                                    Street,
-                                                                    <br />Lagos, <br />Nigeria.<br />
-                                                                    <strong>Time:</strong> 8am - 6pm
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
                                                     <div className="get-connected">
                                                         <h2>GET CONNECTED</h2>
-                                                        <a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:fiyinfoluwa1000@gmail.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
-                                                            
+                                                        <a href="mailto:learn@estelcoaching.com;fiyin@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:learn@estelcoaching.com;fiyin@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
+
                                                             <p sizes="(max-width: 30px) 100vw, 30px" >
-                                                                fiyinfoluwa1000@gmail.com</p>
+                                                                learn@estelcoaching.com</p>
+
                                                         </a>
                                                         <br />
                                                         <br />
-                                                        <a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab."><img src={Phone} alt="Phone" width={20} height={20} loading="lazy" sizes="(max-width: 20px) 100vw, 20px" /></a> <a href="tel:+2348175863420" target="_blank" rel="noopener" aria-label="Phone; opens in new tab.">
-                                                            <p sizes="(max-width: 30px) 100vw, 30px"> +2348175863420
-                                                            </p>
+                                                        <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
+
+                                                            <p sizes="(max-width: 30px) 100vw, 30px" >
+                                                                fiyin@estelcoaching.com</p>
+
                                                         </a>
                                                     </div>
                                                 </div>

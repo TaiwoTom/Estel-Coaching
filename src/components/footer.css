@@ -42,7 +42,7 @@ footer.footer-area .f-logo {
 footer.footer-area .f-logo a {
     display: block;
     min-height: 48px;
-    
+
 }
 
 footer.footer-area .f-logo a img {
@@ -55,12 +55,12 @@ footer.footer-area .f-about-text {
     margin-bottom: 37px;
 }
 
-footer.footer-area .get-connected {
+/* footer.footer-area .get-connected {
     border-top: 1px solid #a3a3a3;
     max-width: 350px;
     padding-top: 25px;
     width: 100%
-}
+} */
 
 footer.footer-area .get-connected h2 {
     margin-bottom: 13px
@@ -74,13 +74,14 @@ footer.footer-area .get-connected a {
     color: #f0b95e;
 
 }
+
 footer.footer-area .get-connected a p {
     margin-top: -6px;
 }
 
 footer.footer-area .get-connected a img {
     display: block;
-    
+
 }
 
 .footer-tab2 {
@@ -115,26 +116,9 @@ footer.footer-area .footer-tab2 ul.demo li a:hover {
     color: #f5b860
 }
 
-footer.footer-area .f-address {
-    background: url(https://digitalmarketing.computan.com/hubfs/Computan%202020/map-mark.png) no-repeat top;
-    margin-bottom: 15px;
-    padding-bottom: 8px;
-    padding-top: 40px;
-    position: relative;
-    
-}
 
-footer.footer-area .f-address:after {
-    background: #f0b95e;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    width: 127px
-}
+
+
 
 footer.footer-area .phone-number {
     color: #fff;
@@ -242,9 +226,7 @@ footer.footer-area .get-connected a:focus-visible {
     outline-style: auto !important
 }
 
-footer.footer-area .get-connected a:focus-visible {
-    outline-offset: 2px
-}
+
 
 @media(max-width:1198px) {
 

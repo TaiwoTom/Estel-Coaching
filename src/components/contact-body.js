@@ -1,7 +1,5 @@
 import React from "react";
-// import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 import "./index.css";
-
 import "./home_banner.css";
 import "./page_fancybox.css";
 import "./page_layout_stylesheet.css";
@@ -11,9 +9,15 @@ import "./contact_address.css";
 import "./contact_stylesheet.css";
 import "./contact-form.css";
 import Email from "../assets/email-5a59065e.svg";
-import Phone from "../assets/phone.png";
+import Internet from "../assets/internet.svg";
+import { useForm, ValidationError } from '@formspree/react';
 
 function ContactBody() {
+  const [state, handleSubmit] = useForm("moqowpnd");
+  if (state.succeeded) {
+    return <p className="form-success-msg">Thanks for Contacting Estel Coaching!</p>;
+  }
+
   return (
     <div className="row-fluid-wrapper row-depth-1 row-number-2 contact-body">
       <div className="row-fluid ">
@@ -46,15 +50,12 @@ function ContactBody() {
                         <div className="span4">
                           <div className="form-left-text get-connected">
                             <h2>Estel Coaching</h2>
-                            <p>
-                              21, Azikiwe Street, Lagos, Nigeria, P.O. Box
-                              30046.
-                            </p>
+                  
 
                             <ul>
                               <li>
                                 <a
-                                  href="mailto:fiyinfoluwa1000@gmail.com"
+                                  href="mailto:learn@estelcoaching.com;fiyin@estelcoaching"
                                   target="_blank"
                                   rel="noopener"
                                   aria-label="Email; opens in new tab."
@@ -73,7 +74,7 @@ function ContactBody() {
                               </li>
                               <li>
                                 <a
-                                  href="tel:+2348175863420"
+                                  href="https://estelcoaching.com/"
                                   target="_blank"
                                   rel="noopener"
                                   aria-label="Phone; opens in new tab."
@@ -81,12 +82,12 @@ function ContactBody() {
                                   linktext
                                 >
                                   <img
-                                    src={Phone}
+                                    src={Internet}
                                     alt="Phone"
-                                    width={20}
-                                    height={20}
+                                    width={22}
+                                    height={22}
                                     loading="lazy"
-                                    sizes="(max-width: 20px) 100vw, 20px"
+                                    sizes="(max-width: 22px) 100vw, 22px"
                                   />
                                 </a>
                               </li>
@@ -95,11 +96,10 @@ function ContactBody() {
                         </div>
                         <section id="contact">
                           <div className="container pb-5">
-                            <h2 class="pt-5">Contact Me</h2>
+                            <h2 class="pt-5">Contact Us</h2>
                             <form
-                              className=""
-                              action="mailto:fiyinfoluwa1000@gmail.com"
-                              method="post"
+                              onSubmit={handleSubmit}
+                              
                             >
                               <div id="name">
                                 <div className="form-group">
@@ -134,7 +134,12 @@ function ContactBody() {
                                   name="email"
                                   className="form-control"
                                   placeholder="Email*"
-                                  required
+                                  
+                                />
+                                <ValidationError
+                                  prefix="Email"
+                                  field="email"
+                                  errors={state.errors}
                                 />
                               </div>
                               <div className="form-group">
@@ -144,7 +149,7 @@ function ContactBody() {
                                   name="phone"
                                   className="form-control"
                                   placeholder="Phone No."
-                                  required
+                                  
                                 />
                               </div>
                               <div className="form-group">
@@ -155,13 +160,18 @@ function ContactBody() {
                                   name="message"
                                   className="form-control"
                                   placeholder="Message"
-                                  required
+                                  
                                   defaultValue={""}
+                                />
+                                <ValidationError
+                                  prefix="Message"
+                                  field="message"
+                                  errors={state.errors}
                                 />
                               </div>
                               <button
                                 type="submit"
-                                className="btn btn-primary mt-3"
+                                className="btn btn-primary mt-3"                               
                               >
                                 Send
                               </button>
