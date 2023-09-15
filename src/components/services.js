@@ -6,7 +6,10 @@ import './page_fancybox.css';
 import './page_layout_stylesheet.css';
 import './responsive_layout_header.css';
 import './video_with_text.css';
-import AgileTransport from '../assets/AgileTransformation.jpg';
+import AgileTransport from '../assets/AgileTransformation.webp';
+import CareerCoaching from '../assets/career-coaching-icon-e63bc9d8.webp';
+import Resume from '../assets/resume-linkedin-optimization-icon-09b11b67.webp';
+import ScrumTransition from '../assets/scrum-transition-icon-a4fe06b3.webp';
 import './services.css'
 
 
@@ -24,7 +27,7 @@ function Services() {
                                     </div>
                                     <div className="service-tab-row">
                                         <div className="service-tab">
-                                            <img className="lazy" data-src="https://wallpapercave.com/wp/wp10306588.jpg" alt="scrum_transition" width={450} height={300} src="https://wallpapercave.com/wp/wp10306588.jpg" />
+                                            <img className="lazy" data-src={ScrumTransition} alt="scrum_transition" width={450} height={300} src={ScrumTransition} />
                                             <h3>Scrum Transition</h3>
                                             <p>Embarking on a career switch to a no-coding tech role as a Scrum Master
                                                 holds significant promise. This role is in high
@@ -44,10 +47,10 @@ function Services() {
                                                 this opportunity to transform your career path and thrive in the dynamic
                                                 realm of tech as a skilled Scrum Master.
                                             </p>
-                                            
+
                                         </div>
                                         <div className="service-tab">
-                                            <img className="lazy" data-src="https://wallpapercave.com/wp/wp6324177.jpg" alt="career_coaching" width={450} height={300} src="https://wallpapercave.com/wp/wp6324177.jpg" />
+                                            <img className="lazy" data-src={CareerCoaching} alt="career_coaching" width={450} height={300} src={CareerCoaching} />
                                             <h3>Career Coaching</h3>
                                             <p>Within this coaching program, you'll collaborate with a skilled career
                                                 coach to refine your toolkit, hone essential
@@ -70,7 +73,7 @@ function Services() {
                                                 and empower yourself to navigate the dynamic job market with confidence
                                                 and precision.
                                             </p>
-                                            
+
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src="https://bluecowsoftware.com/wp-content/uploads/2018/02/Building-Your-Job-Search-Support-Team.jpg" alt="job_support" width={450} height={280} src="https://bluecowsoftware.com/wp-content/uploads/2018/02/Building-Your-Job-Search-Support-Team.jpg" />
@@ -94,10 +97,10 @@ function Services() {
                                                 the confidence and skills needed to excel in
                                                 the ever-evolving tech landscape.
                                             </p>
-                                            
+
                                         </div>
                                         <div className="service-tab">
-                                            <img className="lazy" data-src="https://insightglobal.com/wp-content/uploads/2022/08/strategic-interview-questions.webp" alt="interviewing_preparation" width={450} height={280} src="https://insightglobal.com/wp-content/uploads/2022/08/strategic-interview-questions.webp" />
+                                            <img className="lazy" data-src={Resume} alt="interviewing_preparation" width={450} height={280} src={Resume} />
                                             <h3>Interview Preparation</h3>
                                             <p>Securing the role of a Scrum Master requires more than just
                                                 qualifications; it demands exceptional interview performance
@@ -119,7 +122,7 @@ function Services() {
                                                 stand out and secure your desired role in the ever-evolving tech
                                                 industry.
                                             </p>
-                                            
+
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src="https://wallpapercave.com/wp/wp7447328.jpg" alt="resume_linkedin" width={450} height={300} src="https://wallpapercave.com/wp/wp7447328.jpg" />
@@ -148,7 +151,7 @@ function Services() {
                                                 communicate your professional prowess effectively and secure that
                                                 coveted interview opportunity.
                                             </p>
-                                            
+
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src={AgileTransport} alt="agile_transformation" width={450} height={300} src={AgileTransport} />
@@ -174,7 +177,7 @@ function Services() {
                                                 under your direction, we will use Scrum to assemble an enablement team and recommend executing one-week sprints from a
                                                 product backlog.
                                             </p>
-                                            
+
                                         </div>
                                     </div>
                                 </div>

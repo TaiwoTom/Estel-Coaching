@@ -4,8 +4,7 @@ import './page_fancybox.css';
 import './page_layout_stylesheet.css';
 import './responsive_layout_header.css';
 import './video_with_text.css';
-import scrum from '../assets/scrum.mp4';
-import contactImage from '../assets/contact-bg.png'
+import contactImage from '../assets/contact-bg.webp'
 import './index.css';
 
 function ContactHeader() {

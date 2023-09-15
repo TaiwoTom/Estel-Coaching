@@ -8,8 +8,8 @@ import "./video_with_text.css";
 import "./contact_address.css";
 import "./contact_stylesheet.css";
 import "./contact-form.css";
-import Email from "../assets/email-5a59065e.svg";
-import Internet from "../assets/internet.svg";
+import Email from "../assets/email-5a59065e.webp";
+import Internet from "../assets/internet.webp";
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactBody() {
@@ -57,7 +57,7 @@ function ContactBody() {
                                 <a
                                   href="mailto:learn@estelcoaching.com;fiyin@estelcoaching"
                                   target="_blank"
-                                  rel="noopener"
+                                  rel="noreferrer"
                                   aria-label="Email; opens in new tab."
                                   className="contact-email"
                                   linktext
@@ -76,7 +76,7 @@ function ContactBody() {
                                 <a
                                   href="https://estelcoaching.com/"
                                   target="_blank"
-                                  rel="noopener"
+                                  rel="noreferrer"
                                   aria-label="Phone; opens in new tab."
                                   className="contact-phone"
                                   linktext
@@ -94,6 +94,8 @@ function ContactBody() {
                             </ul>
                           </div>
                         </div>
+
+                        {/* FORM SECTION*/}
                         <section id="contact">
                           <div className="container pb-5">
                             <h2 class="pt-5">Contact Us</h2>
@@ -194,9 +196,9 @@ function ContactBody() {
       {/*end row*/}
     </div>
   );
-  {
+  
     /*end row-wrapper */
-  }
+  
 }
 
 export default ContactBody;

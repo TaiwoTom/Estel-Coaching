@@ -4,35 +4,25 @@
     position: relative
 }
 
-.contact-form-area:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-   
-    width: 215px;
-    height: 100%;
-    background-size: contain;
-    opacity: 1
-}
+
 
 .contact-form-area:after {
     content: "";
     position: absolute;
     top: -40px;
     right: 0;
-    background: url("../assets/contact-bg.webp") no-repeat top;
+    background: url("../assets/contact-body-bg.webp") no-repeat top;
     width: 168px;
     height: 100%;
     background-size: contain;
-    opacity: 1
+    opacity: 1;
+    z-index: -5
 }
 
 .contact-form-area .row-fluid {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: start;
-    align-items: start
 }
 
 .form-left-text {
@@ -122,7 +112,7 @@
         display: -ms-flexbox;
         display: block;
         -ms-flex-align: start;
-        align-items: start
+        
     }
 
     .contact-form-area .span8 {

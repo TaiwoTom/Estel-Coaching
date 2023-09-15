@@ -5,9 +5,10 @@ import './page_fancybox.css';
 import './page_layout_stylesheet.css';
 import './responsive_layout_header.css';
 import './video_with_text.css';
-import AgileTransport from '../assets/AgileTransformation.jpg';
+import AgileTransport from '../assets/AgileTransformation.webp';
+import CareerCoaching from '../assets/career-coaching-icon-e63bc9d8.webp';
+import Resume from '../assets/resume-linkedin-optimization-icon-09b11b67.webp';
 import './services.css'
-import { Link } from 'react-router-dom';
 
 
 function HomeServices() {
@@ -36,7 +37,7 @@ function HomeServices() {
                                             <a href="./services" rel="noferrrer" className="learn-more" target="_blank" aria-label="Scrum Transition, opens in new tab">Learn More</a>
                                         </div>
                                         <div className="service-tab">
-                                            <img className="lazy" data-src="https://wallpapercave.com/wp/wp6324177.jpg" alt="career_coaching" width={450} height={300} src="https://wallpapercave.com/wp/wp6324177.jpg" />
+                                            <img className="lazy" data-src={CareerCoaching} alt="career_coaching" width={450} height={300} src={CareerCoaching} />
                                             <h3>Career Coaching</h3>
                                             <p>Within this coaching program, you'll collaborate with a skilled career
                                                 coach to refine your toolkit, hone essential
@@ -75,7 +76,7 @@ function HomeServices() {
                                             <a href="./services" rel="noferrrer" className="learn-more" target="_blank" aria-label="Interviewing Preparation, opens in new tab">Learn More</a>
                                         </div>
                                         <div className="service-tab">
-                                            <img className="lazy" data-src="https://wallpapercave.com/wp/wp7447328.jpg" alt="resume_linkedin" width={450} height={300} src="https://wallpapercave.com/wp/wp7447328.jpg" />
+                                            <img className="lazy" data-src={Resume} alt="resume_linkedin" width={450} height={300} src={Resume} />
                                             <h3>Resume Writing &amp; Linkedin Optimization</h3>
                                             <p>In today's competitive job market, the era of generic CVs has waned.
                                                 Recruiters invest mere seconds scrutinizing each CV

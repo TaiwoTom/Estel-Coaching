@@ -3,27 +3,29 @@
 }
 
 #contact label {
-margin-top: 20px;
-font-weight: 700;
+    margin-top: 20px;
+    font-weight: 700;
 }
 
 
-button{
+button {
     border-radius: 5px;
     border-style: none;
 }
 
 
-input, textarea {
-    
-    border-bottom: thin solid; 
+input,
+textarea {
+
+    border-bottom: thin solid;
     font-size: 18px;
     line-height: 20px;
     padding: 10px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-input:placeholder-shown, textarea:placeholder-shown{
+input:placeholder-shown,
+textarea:placeholder-shown {
     font-style: italic;
     font-size: 18px;
     font-weight: 150;
@@ -31,37 +33,37 @@ input:placeholder-shown, textarea:placeholder-shown{
 
 #name {
     display: flex;
-    
+
 }
 
-#firstname{
+#firstname {
     width: 29vw;
 }
 
-#lastname{
+#lastname {
     width: 29vw;
 }
 
-.form-group{
-    margin-bottom: 18px;    
+.form-group {
+    margin-bottom: 18px;
 }
 
 #message {
-    width: 58.5vw 
+    width: 58.5vw
 }
 
-.form-control{
+.form-control {
     margin-right: 2vw;
     width: 60vw;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    
+
 }
 
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
-textarea {
+textarea:focus-visible {
     box-shadow: 0 0 10px 2px transparent !important;
     outline-style: none !important;
     background-color: rgb(126, 126, 126, 0.1);
@@ -72,80 +74,75 @@ textarea {
     margin: 8vw;
     font-weight: 600;
     font-size: 40px;
-    color:#f3b860;
+    color: #f3b860;
     line-height: 45px;
 }
 
 
 @media only screen and (max-width: 576px) {
     #message {
-            width: 54.5vw
-        }
-        #contact {
-            margin-top: 22vh;
-        }
+        width: 54.5vw
+    }
+
+    #contact {
+        margin-top: 22vh;
+    }
 }
 
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 576px) {
-    
+
     #contact {
-            margin-top: 22vh;
-        }
+        margin-top: 22vh;
+    }
+
+    #firstname {
+        width: 44vw;
+    }
+
+    #lastname {
+        width: 44vw;
+    }
+
+    .form-control {
     
-        #firstname {
-            width: 44vw;
-        }
-    
-        #lastname {
-            width: 44vw;
-        }
-    
-        .form-control {
-    
-            width: 90vw;
-    
-    
-        }
-    
-        #message {
-            width: 83.5vw
-        }
-    
+        width: 90vw;
+    } 
+
+
+    #message {
+        width: 83.5vw
+    }
+
 }
 
 /* TAB VIEW */
 
 @media only screen and (min-width: 577px) and (max-width: 1024px) {
 
-    
+
     #contact {
-            margin-top: 22vh;
-        }
-        #firstname {
-            width: 44vw;
-        }
-    
-        #lastname {
-            width: 44vw;
-        }
-                .form-control {
-               
-                    width: 90vw;
-        
-        
-                }
-        #message {
+        margin-top: 22vh;
+    }
+
+    #firstname {
+        width: 44vw;
+    }
+
+    #lastname {
+        width: 44vw;
+    }
+
+    .form-control {
+        width: 90vw;
+    }
+
+    #message {
         width: 86.5vw
     }
 
 
 
-    
+
 }
-
-
-
-
-

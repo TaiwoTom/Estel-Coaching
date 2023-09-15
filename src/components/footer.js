@@ -7,14 +7,10 @@ import './responsive_layout_header.css';
 import './video_with_text.css';
 import './footer.css';
 import logo from '../assets/EstelLogo.png';
-import Email from '../assets/email-5a59065e.svg';
-import { Link } from 'react-router-dom';
+import Email from '../assets/email-5a59065e.webp';
 
 
 function Footer() {
-    const openInNewTab = (url) => {
-        window.open(url, "_blank", "noreferrer");
-    };
     return (
 
         <div className="footer-container-wrapper">
@@ -50,7 +46,7 @@ function Footer() {
                                                 <div className="footer-tab2">
                                                     <div className="get-connected">
                                                         <h2>GET CONNECTED</h2>
-                                                        <a href="mailto:learn@estelcoaching.com;fiyin@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:learn@estelcoaching.com;fiyin@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
+                                                        <a href="mailto:learn@estelcoaching.com;fiyin@estelcoaching.com" target="_blank" rel="noreferrer" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:learn@estelcoaching.com;fiyin@estelcoaching.com" target="_blank" rel="noreferrer" aria-label="Email; opens in new tab.">
 
                                                             <p sizes="(max-width: 30px) 100vw, 30px" >
                                                                 learn@estelcoaching.com</p>
@@ -58,7 +54,7 @@ function Footer() {
                                                         </a>
                                                         <br />
                                                         <br />
-                                                        <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noopener" aria-label="Email; opens in new tab.">
+                                                        <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noreferrer" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noreferrer" aria-label="Email; opens in new tab.">
 
                                                             <p sizes="(max-width: 30px) 100vw, 30px" >
                                                                 fiyin@estelcoaching.com</p>
@@ -97,7 +93,7 @@ function Footer() {
                 </div>{/*end row-wrapper */}
             </div>{/*end footer */}
         </div>
-    ); {/*end footer wrapper */ }
+    ); /*end footer wrapper */ 
 }
 
 
