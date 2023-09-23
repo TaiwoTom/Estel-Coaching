@@ -38,13 +38,13 @@
   max-width: 500px;
   background-color: #333;
   box-shadow: -3px 0 33.81px 15.19px rgba(0, 0, 0, 0.2);
-  font-size: 14px;
+  font-size: 17px;
   color: #fff;
   line-height: 24px;
   transition: all 0.4s ease-in-out;
   box-sizing: border-box;
   padding: 30px;
-  margin: 0 29px 60px;
+  margin: 0 42px 60px;
 }
 
 .service-tab .overlap-hover {
@@ -60,18 +60,20 @@
 }
 
 
-
 /* TAB- DOUBLE COLUMN VIEW */
-
 @media only screen and (max-width: 1024px) and (min-width: 621px) {
   .service-tab .lazy {
     width: 30vmax;
     height: 40vh;
   }
+
+  .service-tab {
+    margin: 0 29px 60px;
+  }
 }
 
-/* MOBILE VIEW */
 
+/* MOBILE VIEW */
 @media only screen and (max-width: 576px) {
   .service-tab .lazy {
     width: 70vw;
@@ -80,7 +82,7 @@
 }
 
 .service-tab h3 {
-  font-size: 18px;
+  font-size: 22px;
   color: #fff;
   font-weight: 600;
   margin-bottom: 20px;
@@ -88,7 +90,6 @@
 
 .service-tab .learn-more {
   display: inline-block;
-  /* background: url(https://digitalmarketing.computan.com/hubfs/Computan%202020/right-arrow.png) no-repeat 100%; */
   color: #e5b15b;
   opacity: 0;
   visibility: hidden;

@@ -9,10 +9,8 @@ import './footer.css';
 import logo from '../assets/EstelLogo.png';
 import Email from '../assets/email-5a59065e.webp';
 
-
 function Footer() {
     return (
-
         <div className="footer-container-wrapper">
             <div className="footer-container container-fluid">
                 <div className="row-fluid-wrapper row-depth-1 row-number-1 ">
@@ -50,15 +48,12 @@ function Footer() {
 
                                                             <p sizes="(max-width: 30px) 100vw, 30px" >
                                                                 learn@estelcoaching.com</p>
-
                                                         </a>
                                                         <br />
                                                         <br />
                                                         <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noreferrer" aria-label="Email; opens in new tab." linktext><img src={Email} alt="Email" width={25} height={25} loading="lazy" sizes="(max-width: 25px) 100vw, 25px" /></a> <a href="mailto:fiyin@estelcoaching.com;learn@estelcoaching.com" target="_blank" rel="noreferrer" aria-label="Email; opens in new tab.">
-
                                                             <p sizes="(max-width: 30px) 100vw, 30px" >
                                                                 fiyin@estelcoaching.com</p>
-
                                                         </a>
                                                     </div>
                                                 </div>
@@ -93,8 +88,7 @@ function Footer() {
                 </div>{/*end row-wrapper */}
             </div>{/*end footer */}
         </div>
-    ); /*end footer wrapper */ 
+    ); /*end footer wrapper */
 }
-
 
 export default Footer;

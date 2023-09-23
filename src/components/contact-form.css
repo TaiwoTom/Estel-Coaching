@@ -7,16 +7,13 @@
     font-weight: 700;
 }
 
-
 button {
     border-radius: 5px;
     border-style: none;
 }
 
-
 input,
 textarea {
-
     border-bottom: thin solid;
     font-size: 18px;
     line-height: 20px;
@@ -33,7 +30,6 @@ textarea:placeholder-shown {
 
 #name {
     display: flex;
-
 }
 
 #firstname {
@@ -57,7 +53,6 @@ textarea:placeholder-shown {
     width: 60vw;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-
 }
 
 a:focus-visible,
@@ -79,37 +74,28 @@ textarea:focus-visible {
 }
 
 
-@media only screen and (max-width: 576px) {
-    #message {
-        width: 54.5vw
-    }
-
-    #contact {
-        margin-top: 22vh;
-    }
-}
-
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 576px) {
-
     #contact {
         margin-top: 22vh;
     }
 
+    #name {
+        display: block;
+    }
+
     #firstname {
-        width: 44vw;
+        width: 87.5vw;
     }
 
     #lastname {
-        width: 44vw;
+        width: 87.5vw;
     }
 
     .form-control {
-    
-        width: 90vw;
-    } 
-
+        width: 87.5vw;
+    }
 
     #message {
         width: 83.5vw
@@ -120,8 +106,6 @@ textarea:focus-visible {
 /* TAB VIEW */
 
 @media only screen and (min-width: 577px) and (max-width: 1024px) {
-
-
     #contact {
         margin-top: 22vh;
     }
@@ -141,8 +125,4 @@ textarea:focus-visible {
     #message {
         width: 86.5vw
     }
-
-
-
-
 }

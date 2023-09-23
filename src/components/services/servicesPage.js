@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import '../index.css';
-import '../services.css'
+import '../services.css';
 import Navbar from '../navbar';
 import ServicesHeader from '../services-header';
 import Services from '../services';
-
 import Footer from '../footer'
 
 function ServicesPage() {

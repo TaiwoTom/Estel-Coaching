@@ -66,7 +66,6 @@ function Navbar() {
                         </div>
                         {/*end widget-span */}
 
-                        {/* <span className="navmenu" onClick={openNav}>&#9776;</span> */}
                         <span
                           id="hs_cos_wrapper_module_14588124460843"
                           onClick={openNav}
@@ -74,7 +73,7 @@ function Navbar() {
                           data-hs-cos-general-type="widget"
                           data-hs-cos-type="menu"
                         >
-                          <a className="mobile-trigger new_nav">
+                          <a className="mobile-trigger new_nav" >
                             <i className="icon-menu new_icon" />
                           </a>
                         </span>
@@ -121,7 +120,7 @@ function Navbar() {
                               data-hs-cos-general-type="widget"
                               data-hs-cos-type="menu"
                             >
-                              <a className="mobile-trigger">
+                              <a className="mobile-trigger" href="#">
                                 <i className="icon-menu" />
                               </a>
                               <div
@@ -177,9 +176,7 @@ function Navbar() {
       {/*end header */}
     </div>
   );
-  {
-    /*end header wrapper */
-  }
+  /*end header wrapper */
 }
 
 export default Navbar;

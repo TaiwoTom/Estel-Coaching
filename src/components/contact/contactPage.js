@@ -2,7 +2,6 @@ import React from 'react';
 import '../index.css';
 import Navbar from '../navbar';
 import ContactHeader from '../contact-header';
-// import Form from '../form';
 import ContactBody from '../contact-body'
 import Footer from '../footer'
 
@@ -14,7 +13,6 @@ function ContactPage() {
                 <ContactHeader />
                 <ContactBody />
                 <Footer />
-
             </body>
         </div>
     );

@@ -13,7 +13,7 @@ import Internet from "../assets/internet.webp";
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactBody() {
-  const [state, handleSubmit] = useForm("moqowpnd");
+  const [state, handleSubmit] = useForm("mpzgrvkd");
   if (state.succeeded) {
     return <p className="form-success-msg">Thanks for Contacting Estel Coaching!</p>;
   }
@@ -50,8 +50,6 @@ function ContactBody() {
                         <div className="span4">
                           <div className="form-left-text get-connected">
                             <h2>Estel Coaching</h2>
-                  
-
                             <ul>
                               <li>
                                 <a
@@ -101,22 +99,21 @@ function ContactBody() {
                             <h2 class="pt-5">Contact Us</h2>
                             <form
                               onSubmit={handleSubmit}
-                              
                             >
                               <div id="name">
                                 <div className="form-group">
                                   <div>
-                                  <input
-                                    type="text"
-                                    id="firstname"
-                                    name="first name"
-                                    className="form-control"
-                                    placeholder="First Name*"
-                                    required
-                                  />
+                                    <input
+                                      type="text"
+                                      id="firstname"
+                                      name="first name"
+                                      className="form-control"
+                                      placeholder="First Name*"
+                                      required
+                                    />
                                   </div>
                                 </div>
-                             
+
                                 <div className="form-group">
                                   <input
                                     type="text"
@@ -128,15 +125,15 @@ function ContactBody() {
                                   />
                                 </div>
                               </div>
-                              <div className="form-group">
 
+                              <div className="form-group">
                                 <input
                                   type="email"
                                   id="email"
                                   name="email"
                                   className="form-control"
                                   placeholder="Email*"
-                                  
+
                                 />
                                 <ValidationError
                                   prefix="Email"
@@ -144,6 +141,7 @@ function ContactBody() {
                                   errors={state.errors}
                                 />
                               </div>
+
                               <div className="form-group">
                                 <input
                                   type="phone"
@@ -151,18 +149,19 @@ function ContactBody() {
                                   name="phone"
                                   className="form-control"
                                   placeholder="Phone No."
-                                  
+
                                 />
                               </div>
+
                               <div className="form-group">
                                 <textarea
                                   id="message"
                                   rows={6}
-                                  cols={30} 
+                                  cols={30}
                                   name="message"
                                   className="form-control"
                                   placeholder="Message"
-                                  
+
                                   defaultValue={""}
                                 />
                                 <ValidationError
@@ -171,9 +170,10 @@ function ContactBody() {
                                   errors={state.errors}
                                 />
                               </div>
+
                               <button
                                 type="submit"
-                                className="btn btn-primary mt-3"                               
+                                className="btn btn-primary mt-3"
                               >
                                 Send
                               </button>
@@ -196,9 +196,7 @@ function ContactBody() {
       {/*end row*/}
     </div>
   );
-  
-    /*end row-wrapper */
-  
+  /*end row-wrapper */
 }
 
 export default ContactBody;

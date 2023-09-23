@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
 import './index.css';
 import './home_banner.css';
 import './page_fancybox.css';
@@ -9,9 +8,7 @@ import './video_with_text.css';
 import './testimonials.css'
 
 function Testimonials() {
-
-           return (
-
+    return (
         <div className="row-fluid-wrapper row-depth-1 row-number-8 ">
             <div className="row-fluid ">
                 <div className="span12 widget-span widget-type-custom_widget " data-widget-type="custom_widget" data-x={0} data-w={12}>
@@ -143,7 +140,8 @@ function Testimonials() {
                 </div>{/*end widget-span */}
             </div>{/*end row*/}
         </div>
-    ); {/*end row-wrapper */ }
+    );
+    // end row-wrapper 
 }
 
 export default Testimonials;

@@ -280,10 +280,6 @@ h4 {
         width: 100%
     }
 
-
-
-
-
     .custom-menu-primary.js-enabled {
         margin: 0;
         padding-top: 44px;
@@ -761,7 +757,7 @@ h4 {
     }
 
     .home-banner {
-        height: 600px
+        height: 400px
     }
 
     .banner-cpation {
@@ -1135,8 +1131,6 @@ h4 {
 .custom-menu-primary .hs-menu-wrapper>ul>li>a:focus-visible {
     outline-style: auto !important
 }
-
-
 
 .screen-reader-text {
     clip: rect(0 0 0 0);
@@ -1518,10 +1512,7 @@ h4 {
 
     .get-connected ul .contact-phone {
         margin-left: -10px;
-
-
     }
-
 }
 
 /* MOBILE VIEW */
@@ -1533,8 +1524,6 @@ h4 {
     .get-connected ul .contact-phone {
         margin-left: -10px;
         padding-bottom: 12px;
-
-
     }
 
 }

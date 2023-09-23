@@ -278,8 +278,6 @@ h4 {
         width: 100%
     }
 
-    
-
     .mobile-trigger:hover {
         text-decoration: none
     }
@@ -331,8 +329,6 @@ h4 {
     .mobile-trigger:hover i:before {
         background-color: #fff
     }
-
-    
 
     .custom-menu-primary.js-enabled {
         margin: 0;
@@ -1250,36 +1246,6 @@ input:focus-visible {
     padding-left: 0 !important
 }
 
-.career-area ul li {
-    line-height: 1.8;
-    padding: 0 0 15px 20px;
-    position: relative
-}
-
-.career-area ul li:last-child {
-    padding-bottom: 0
-}
-
-.career-area ul:not(.location) li:before {
-    color: #f3b760;
-    content: "\f046";
-    font: normal normal normal 14px/1 FontAwesome;
-    left: 0;
-    position: absolute;
-    top: 8px
-}
-
-.career-area .heading-box {
-    float: none !important;
-    margin: 0 auto 50px !important;
-    max-width: 800px;
-    text-align: center
-}
-
-.career-area .heading-box h2 {
-    font-weight: 600
-}
-
 .ui-group {
     align-items: center;
     display: flex;
@@ -1330,141 +1296,6 @@ input:focus-visible {
     outline: none !important
 }
 
-.search-box i {
-    color: #a5a5a5;
-    cursor: text;
-    position: absolute;
-    right: 15px;
-    top: 10px
-}
-
-.job-posting-area {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -15px
-}
-
-.job-post {
-    background: #f9f9f9;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    margin: 0 15px 30px;
-    width: calc(33.33333% - 30px)
-}
-
-.job-post-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 355px;
-    padding: 35px 30px 20px;
-    position: relative
-}
-
-.job-post a {
-    text-decoration: none
-}
-
-.job-post:nth-child(odd) {
-    background-image: url(https://digitalmarketing.computan.com/hubfs/Computan%202020/Carrer-Page-Thumbnail-design-1.png)
-}
-
-.job-post:nth-child(2n) {
-    background-image: url(https://digitalmarketing.computan.com/hubfs/Computan%202020/Carrer-Page-Thumbnail-design-02-1.png)
-}
-
-.post-img img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: block;
-    margin-bottom: 25px;
-    width: 100%
-}
-
-.job-post .job_type {
-    color: #fff;
-    display: inline-block;
-    font-size: 17px;
-    font-weight: 600;
-    margin-right: 5px;
-    position: absolute;
-    right: 3px;
-    top: 5px
-}
-
-.job-post .blink {
-    animation: blinker 1.5s linear infinite;
-    background: green;
-    border-radius: 50%;
-    display: inline-block;
-    height: 10px;
-    margin-left: 5px;
-    width: 10px
-}
-
-@keyframes blinker {
-    0% {
-        opacity: 0
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-.job-post h4 {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 600 !important;
-    height: auto !important;
-    line-height: normal;
-    margin-bottom: 10px;
-    text-decoration: none
-}
-
-.job-post h4 a {
-    color: #171b25;
-    text-decoration: none
-}
-
-.job-post .location {
-    color: #a5a5a5;
-    display: flex;
-    font-size: 14px;
-    list-style: none
-}
-
-.job-post .location li {
-    margin-right: 15px;
-    padding: 0
-}
-
-.job-post p {
-    line-height: 1.6;
-    margin-bottom: 0
-}
-
-.job-post a.apply-now {
-    bottom: 8px;
-    color: #fff;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 600;
-    position: absolute;
-    text-decoration: none
-}
-
-.job-post .apply-now i {
-    font-size: 12px;
-    padding-left: 5px
-}
-
-.career-area .post-body .btn-primary {
-    margin-bottom: 50px
-}
-
 @media (max-width:1114px) {
     .custom-menu-primary .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-menu-depth-1 {
         margin-left: 16px
@@ -1500,20 +1331,9 @@ input:focus-visible {
         margin-top: -100px
     }
 
-    .job-post {
-        width: calc(50% - 30px)
-    }
 }
 
 @media (max-width:767px) {
-    .job-post {
-        width: calc(100% - 30px) !important
-    }
-
-    .career-area {
-        padding: 50px 0 20px
-    }
-
     .ui-group {
         flex-direction: column
     }
@@ -1542,25 +1362,5 @@ input:focus-visible {
 @media (max-width:620px) {
     .two-col-box .text-col {
         padding: 20px
-    }
-
-    .career-area ul li {
-        line-height: 1.6
-    }
-
-    .job-post {
-        margin-bottom: 20px;
-        width: calc(100% - 30px)
-    }
-}
-
-@media(max-width:480px) {
-    .job-post a.apply-now {
-        font-size: 14px;
-        line-height: 24px
-    }
-
-    .job-post h4 {
-        font-size: 26px
     }
 }

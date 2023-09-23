@@ -1,17 +1,16 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
 import './index.css';
 import './home_banner.css';
 import './page_fancybox.css';
 import './page_layout_stylesheet.css';
 import './responsive_layout_header.css';
 import './video_with_text.css';
-import AgileTransport from '../assets/AgileTransformation.webp';
+import AgileTransport from '../assets/agile-transformation.webp';
 import CareerCoaching from '../assets/career-coaching-icon-e63bc9d8.webp';
+import JobSupport from '../assets/job_support.webp';
 import Resume from '../assets/resume-linkedin-optimization-icon-09b11b67.webp';
 import ScrumTransition from '../assets/scrum-transition-icon-a4fe06b3.webp';
 import './services.css'
-
 
 function Services() {
     return (
@@ -73,10 +72,9 @@ function Services() {
                                                 and empower yourself to navigate the dynamic job market with confidence
                                                 and precision.
                                             </p>
-
                                         </div>
                                         <div className="service-tab">
-                                            <img className="lazy" data-src="https://bluecowsoftware.com/wp-content/uploads/2018/02/Building-Your-Job-Search-Support-Team.jpg" alt="job_support" width={450} height={280} src="https://bluecowsoftware.com/wp-content/uploads/2018/02/Building-Your-Job-Search-Support-Team.jpg" />
+                                            <img className="lazy" data-src={JobSupport} alt="job_support" width={450} height={280} src={JobSupport} />
                                             <h3>On the Job support</h3>
                                             <p>Embarking on the journey to become a Scrum Master is an exciting leap
                                                 into the dynamic world of tech, and at Estel
@@ -97,7 +95,6 @@ function Services() {
                                                 the confidence and skills needed to excel in
                                                 the ever-evolving tech landscape.
                                             </p>
-
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src={Resume} alt="interviewing_preparation" width={450} height={280} src={Resume} />
@@ -151,7 +148,6 @@ function Services() {
                                                 communicate your professional prowess effectively and secure that
                                                 coveted interview opportunity.
                                             </p>
-
                                         </div>
                                         <div className="service-tab">
                                             <img className="lazy" data-src={AgileTransport} alt="agile_transformation" width={450} height={300} src={AgileTransport} />
@@ -177,7 +173,6 @@ function Services() {
                                                 under your direction, we will use Scrum to assemble an enablement team and recommend executing one-week sprints from a
                                                 product backlog.
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +181,6 @@ function Services() {
                     </div>{/*end widget-span */}
                 </div>{/*end row*/}
             </div>{/*end row-wrapper */}
-
         </div>
     );
 }
