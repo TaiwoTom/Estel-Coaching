@@ -20,7 +20,7 @@ function ContactHeader() {
                                     <div className="page-center">
                                         <div className="banner-caption">
                                             <h1>GET IN <strong>TOUCH</strong></h1>
-                                            <h2>We are glad to repond to your questions!</h2>
+                                            <h2>We are glad to respond to your questions!</h2>
                                         </div>
                                     </div>
                                 </div>
